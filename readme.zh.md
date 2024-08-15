@@ -21,7 +21,9 @@
 # 目录
 
 - [目录](#目录)
+- [前言](#前言)
 - [快速使用](#快速使用)
+- [支持的模型](#支持的模型)
 - [在编程语言里使用](#在编程语言里使用)
   - [Shell](#shell)
   - [Python](#python)
@@ -33,6 +35,8 @@
 - [参考](#参考)
 
 <br>
+
+# 前言
 
 将您的“API_KEY”（购买包含本服务的套餐后才可拿到）添加到 HTTP 请求头“Authorization”中即可接入本服务来使用 API。
 
@@ -59,6 +63,18 @@ curl -X POST $API_BASE_URL/v1/chat/completions -H "Content-Type: application/jso
     ]
 }'
 ```
+
+# 支持的模型
+
+购买包含 API 服务的套餐 https://cognihub.baystoneai.com/cognihub/pricing 后才可拿到 API_KEY，然后您就可以使用以下模型了：
+
+|     model      |                             API_BASE_URL                             |
+| :------------: | :------------------------------------------------------------------: |
+|    llama3.1    | https://api.baystoneai.com/cognihub/service/66b97dd5fb19cc7397384f42 |
+| mistral-large  | https://api.baystoneai.com/cognihub/service/66bd78f0e12059ab04073ec2 |
+| qwen2-instruct | https://api.baystoneai.com/cognihub/service/668b6ecdcd9460b2c6963a97 |
+
+需要支持其他模型？请前往英智智汇 API 平台反馈： <a href="https://cognihub.baystoneai.com/cognihub/sale/contact">https://cognihub.baystoneai.com/cognihub/sale/contact</a>
 
 # 在编程语言里使用
 

@@ -20,6 +20,7 @@
 
 - [Contents](#contents)
 - [QuickStart](#quickstart)
+- [Supported Models](#supported-models)
 - [In programming languages](#in-programming-languages)
   - [Shell](#shell)
   - [Python](#python)
@@ -57,6 +58,18 @@ curl -X POST $API_BASE_URL/v1/chat/completions -H "Content-Type: application/jso
     ]
 }'
 ```
+
+# Supported Models
+
+Purchase the package https://cognihub.baystoneai.com/cognihub/pricing that includes the API service to get the API_KEY, and then you can use the following models:
+
+|     model      |                             API_BASE_URL                             |
+| :------------: | :------------------------------------------------------------------: |
+|    llama3.1    | https://api.baystoneai.com/cognihub/service/66b97dd5fb19cc7397384f42 |
+| mistral-large  | https://api.baystoneai.com/cognihub/service/66bd78f0e12059ab04073ec2 |
+| qwen2-instruct | https://api.baystoneai.com/cognihub/service/668b6ecdcd9460b2c6963a97 |
+
+Need to support other models? Please go to the AI2NV CogniHub API platform to feedback: <a href="https://cognihub.baystoneai.com/cognihub/sale/contact">https://cognihub.baystoneai.com/cognihub/sale/contact</a>
 
 # In programming languages
 
