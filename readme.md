@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>英智Llama3.1服务</h1>
+	<h1>AI2NV Llama3.1 Service</h1>
 </div>
 
 <div align="center">
@@ -16,33 +16,33 @@
 
 <br>
 
+# Contents
+
+- [Contents](#contents)
+- [QuickStart](#quickstart)
+- [In programming languages](#in-programming-languages)
+  - [Shell](#shell)
+  - [Python](#python)
+  - [Node.js](#nodejs)
+- [In Third Party Tools](#in-third-party-tools)
+  - [In NextChat](#in-nextchat)
+- [Q\&A](#qa)
+  - [404 Not Found](#404-not-found)
+- [Reference](#reference)
+
+<br>
+
+Add your “API_KEY” (You can get it after you purchase the package that includes this service) to the HTTP request header“Authorization” to access the service to use the API.
+
 <div align="center">
-    当前免费使用：<a href="https://cognihub.baystoneai.com/cognihub/doc/service/66b97dd5fb19cc7397384f42">https://cognihub.baystoneai.com/cognihub/doc/service/66b97dd5fb19cc7397384f42</a>
+    Go to CogniHub and click purchase: <a href="https://cognihub.baystoneai.com/cognihub/doc/service/66b97dd5fb19cc7397384f42">https://cognihub.baystoneai.com/cognihub/doc/service/66b97dd5fb19cc7397384f42</a>
 </div>
 
 <br>
 
-# 目录
+# QuickStart
 
-- [目录](#目录)
-- [快速使用](#快速使用)
-- [在编程语言里使用](#在编程语言里使用)
-  - [Shell](#shell)
-  - [Python](#python)
-  - [Node.js](#nodejs)
-- [在第三方应用里使用](#在第三方应用里使用)
-  - [在 NextChat 里使用](#在-nextchat-里使用)
-- [Q\&A](#qa)
-  - [404 Not Found](#404-not-found)
-- [参考](#参考)
-
-<br>
-
-将您的“API_KEY”（购买包含本服务的套餐后才可拿到）添加到 HTTP 请求头“Authorization”中即可接入本服务来使用 API。
-
-# 快速使用
-
-打开您的命令行，粘贴如下的内容，然后回车即可：
+Open your command line, paste the following and hit enter:
 
 ```sh
 export API_BASE_URL="{SERVICE_API_BASE_URL}"
@@ -58,7 +58,7 @@ curl -X POST $API_BASE_URL/v1/chat/completions -H "Content-Type: application/jso
 }'
 ```
 
-# 在编程语言里使用
+# In programming languages
 
 ## Shell
 
@@ -119,31 +119,31 @@ const response = await client.chat.completions.create({
 console.log(response.choices[0].message.content);
 ```
 
-# 在第三方应用里使用
+# In Third Party Tools
 
-## 在 NextChat 里使用
+## In NextChat
 
-NextChat 在线版
+NextChat Online
 https://app.nextchat.dev
 
-1. 设置
-2. 自定义接口
-3. 模型服务商：OpenAI
-4. 接口地址：{SERVICE_API_BASE_URL}
-5. API Key：{YOUR_API_KEY}
-6. 自定义模型名：llama3.1
-7. 模型：选择自定义的模型
+1. Setting
+2. Custom Endpoint
+3. Model Provider：OpenAI
+4. OpenAI Endpoint：{SERVICE_API_BASE_URL}
+5. OpenAI API Key：{YOUR_API_KEY}
+6. Custom Models：llama3.1
+7. Model：select customed model
 8. Enjoy
 
 # Q&A
 
 ## 404 Not Found
 
-请检查 API_BASE_URL 是否正确，如果使用 OpenAI 方式接入，请带上 API 的版本“v1”，即：
+Please check if the API_BASE_URL is correct. If you are using the OpenAI method to access, please add the API version "v1", that is:
 
 {SERVICE_API_BASE_URL}/v1
 
-# 参考
+# Reference
 
 - OpenAI API compatible: https://ollama.com/blog/openai-compatibility
-- Ollama API 文档: https://github.com/ollama/ollama
+- Ollama API doc: https://github.com/ollama/ollama
