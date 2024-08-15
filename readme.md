@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>AI2NV Llama3.1 Service</h1>
+	<h1>AI2NV CogniHub Llama3.1 Service</h1>
 </div>
 
 <div align="center">
