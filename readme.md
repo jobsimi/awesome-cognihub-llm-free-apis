@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>AI2NV CogniHub Llama3.1 Service</h1>
+	<h1>AI2NV CogniHub LLM Free APIs</h1>
 </div>
 
 <div align="center">
@@ -35,7 +35,7 @@
 Add your “API_KEY” (You can get it after you purchase the package that includes this service) to the HTTP request header“Authorization” to access the service to use the API.
 
 <div align="center">
-    Go to AI2NV CogniHub and click purchase: <a href="https://cognihub.baystoneai.com/cognihub/doc/service/66b97dd5fb19cc7397384f42">https://cognihub.baystoneai.com/cognihub/doc/service/66b97dd5fb19cc7397384f42</a>
+    Go to AI2NV CogniHub and select service to purchase: <a href="https://cognihub.baystoneai.com/cognihub/pricing">https://cognihub.baystoneai.com/cognihub/pricing</a>
 </div>
 
 <br>

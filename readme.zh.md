@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>英智Llama3.1服务</h1>
+	<h1>AI2NV CogniHub LLM Free APIs</h1>
 </div>
 
 <div align="center">
@@ -37,7 +37,7 @@
 将您的“API_KEY”（购买包含本服务的套餐后才可拿到）添加到 HTTP 请求头“Authorization”中即可接入本服务来使用 API。
 
 <div align="center">
-    前往英智智汇API平台，并点击 立即购买： <a href="https://cognihub.baystoneai.com/cognihub/doc/service/66b97dd5fb19cc7397384f42">https://cognihub.baystoneai.com/cognihub/doc/service/66b97dd5fb19cc7397384f42</a>
+    前往英智智汇API平台，挑选服务： <a href="https://cognihub.baystoneai.com/cognihub/pricing">https://cognihub.baystoneai.com/cognihub/pricing</a>
 </div>
 
 <br>
